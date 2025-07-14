@@ -1,6 +1,8 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
+//go:generate stringer -type=Severity -linecomment
+
 package minsev // import "go.opentelemetry.io/contrib/processors/minsev"
 
 import (
